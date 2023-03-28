@@ -1,0 +1,80 @@
+
+@import '../fontawesome/scss/fontawesome.scss';
+@import '../fontawesome/scss/brands.scss';
+@import '../fontawesome/scss/solid.scss';
+@import 'colors';
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+#gaarilo{
+
+.login-body{background: #e4f7fd63;
+    position: relative;
+    height: 100vh;}
+#login{
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:88%;
+    height: 700px;
+    overflow: hidden;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    border-radius: 20px;
+    .logtxt{font-weight: bold;
+        font-size: 40px;
+        color: $primary-color;}
+        label{font-style: normal;
+            font-weight:500;
+            font-size: 18px;
+            color: #424C6E;margin-bottom:5px;}
+.img-box{padding:10px; 
+    border-radius:12px;
+    border:1px solid rgb(197, 197, 197);
+    width:220px;
+    min-height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+span{font-weight:600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #B0B0B0;}
+    .btn{height:35px; width:100px;
+        border-radius: 10px;min-height: inherit;}
+}
+  .form-control {
+        height: 60px;
+        border-radius: 12px;
+    }
+    .btn{min-height:60px;font-weight:600;}
+
+.login-left{
+    background: url(../images/logbg.png) no-repeat;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+
+
+    .banner-logo{position:absolute;top:30px; left: 30px;}
+    .banner-heading{position:absolute;
+        right:20px;
+        bottom:20px;
+        width: 330px;
+        text-align: right;
+    
+    h2{color:#fff;font-weight: bold;
+        font-size:28px;text-transform: uppercase;}
+}
+    }
+
+    .login-right{padding:60px 30px;
+        overflow: auto;
+        max-height: 700px;
+
+    }
+
+   
+}
+}
